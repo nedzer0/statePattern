@@ -1,6 +1,5 @@
 public class TurnOnState implements  StateInterface {
 
-
     public TurnOnState() {
 
     }

@@ -1,18 +1,11 @@
 public class SellState implements StateInterface {
 
-    private String product;
-    private int value;
-
-    public SellState(String product, int value) {
-
-        this.product = product;
-        this.value = value;
+    public SellState() {
     }
 
     @Override
     public void doAction(VendingMachine vm) {
-
-        System.out.println("Produto vendido " + this.product);
+        System.out.println("Produto vendido M&M's.");
 
         vm.setState(this);
     }
