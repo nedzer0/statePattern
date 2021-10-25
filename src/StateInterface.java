@@ -1,4 +1,4 @@
 public interface StateInterface {
 
-    public void doAction();
+    public void doAction(VendingMachine vm);
 }
